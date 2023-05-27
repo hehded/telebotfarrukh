@@ -19,3 +19,4 @@ with TelegramClient('anon', api_id, api_hash) as client:
             print(f"Message sent to the {group} group")
         except ValueError:
             print(f"Couldn't find the {group} group")
+# popazhopa

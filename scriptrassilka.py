@@ -36,3 +36,4 @@ async def main():
 with client:
     client.start()
     client.loop.run_until_complete(main())
+# popazhopa
