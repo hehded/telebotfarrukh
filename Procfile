@@ -1,1 +1,1 @@
-worker: scriptrassilka.py
+worker: python main.py
