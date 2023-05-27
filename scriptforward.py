@@ -1,7 +1,7 @@
 from telethon.sync import TelegramClient
 
 # Replace the placeholders below with your own values
-api_id = '24546246'
+api_id = ''
 api_hash = 'f4701f42fe603625427a6fb6d2c9eebc'
 phone_number = '+12015784790'
 
@@ -20,3 +20,4 @@ with TelegramClient('anon', api_id, api_hash) as client:
         except ValueError:
             print(f"Couldn't find the {group} group")
 # popazhopa
+
